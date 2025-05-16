@@ -1,5 +1,4 @@
 # 📊 Basic Statistics
-
 This section summarizes the initial statistical exploration of the uploaded sales dataset.
 
 ---
