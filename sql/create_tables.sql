@@ -1,3 +1,4 @@
+
 -- Create and use the database
 drop database if exists amphenol;
 create database amphenol;
@@ -66,3 +67,7 @@ create table invoice_sheet (
   FOREIGN KEY (Inv_CustNbr) REFERENCES customer_master(Custmast_CustNbr),
   FOREIGN KEY (Inv_ItemNbr) REFERENCES part_master(Partmast_ItemNbr)
 );
+
+Some column names in the Excel source required renaming due to encoding artifacts (like ï»¿).
+
+You can find the full original script including data cleaning steps, constraint additions, and derived analysis in Amphenol_Script.sql.
