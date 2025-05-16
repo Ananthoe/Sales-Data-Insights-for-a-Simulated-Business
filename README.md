@@ -31,11 +31,13 @@ From designing the database schema to building interactive dashboards, this proj
 
 | Section | Description |
 |---------|-------------|
-| [📘 database_schema.md](./docs/database_schema.md) | Detailed MySQL table design |
-| [📊 basic_statistics.md](./docs/basic_statistics.md) | Table summaries and record-level insights |
-| [📈 business_insights.md](./docs/business_insights.md) | Revenue, customer, and product analysis |
-| [🧾 create_tables.sql](./sql/create_tables.sql) | SQL script to recreate the schema |
-| [📂 ProjectPowerbi.pbix](./ProjectPowerbi.pbix) | Fully interactive Power BI dashboard |
+| [📘 database schema](./docs/database_schema.md) | Detailed MySQL table design |
+| [📊 basic statistics](./docs/basic_statistics.md) | Table summaries and record-level insights |
+| [📈 business insights](./docs/business_insights.md) | Revenue, customer, and product analysis |
+| [🧾 Schema](./sql/create_tables.sql) | SQL script to recreate the schema |
+| [📂 Powerbi File](./ProjectPowerbi.pbix) | Fully interactive Power BI dashboard |
+| [🔘 Click to view sales data dashboard PDF](./Dashboard/SalesData.pdf) | PDF snapshot of Power BI dashboard |
+
 
 
 ---
