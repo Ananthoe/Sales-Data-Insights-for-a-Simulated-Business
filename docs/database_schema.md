@@ -93,4 +93,4 @@ This document outlines the database schema created for the Hypothetical Sales Da
 
 This design allows clean, normalized analysis for sales, cost, geography, and customer behavior.
 
-📌 See [sql/create_tables.sql](../sql/create_tables.sql) for actual SQL schema creation.
+📌 See [SQL](../sql/create_tables.sql) for actual SQL schema creation.
