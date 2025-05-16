@@ -1,7 +1,7 @@
-# 📊 Hypothetical Sales Data Analysis – MySQL + Business Intelligence
+# 📊 Hypothetical Sales Data Analysis – MySQL + Power BI
 
 ![SQL](https://img.shields.io/badge/Database-MySQL-blue?logo=mysql)
-![Analytics](https://img.shields.io/badge/Analysis-Business%20Insights-orange)
+![Power BI](https://img.shields.io/badge/Visualization-Power%20BI-yellow?logo=powerbi&logoColor=white)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 ![Author](https://img.shields.io/badge/Built%20by-Ananth%20Ajith-lightgrey)
 
@@ -9,21 +9,21 @@
 
 ## 🧠 Project Summary
 
-This project showcases an end-to-end **sales data analysis** for a fictional global company. It demonstrates my ability to work with **relational databases**, extract **descriptive statistics**, and deliver **actionable business insights** using real-world data practices.
+This project showcases an end-to-end **sales data analysis** for a fictional global company. It demonstrates my ability to work with **relational databases**, perform structured SQL analysis, and visualize insights using **Microsoft Power BI**.
 
-From database schema design to SQL-based analysis and insight generation, this project reflects both technical fluency and a business-oriented analytical mindset.
+From designing the database schema to building interactive dashboards, this project reflects both technical fluency and business-oriented analytical thinking.
 
-> 📌 Tools Used: **MySQL**, Excel (for data prep), and business logic for insight generation.
+> 📌 Tools Used: **MySQL**, **Power BI**, Excel (for data prep)
 
 ---
 
 ## 🎯 Objectives
 
-- Design a normalized **relational database schema** in MySQL.
-- Upload and clean raw data from Excel sheets using Table Data Import Wizard.
-- Perform exploratory and diagnostic analysis through SQL queries.
-- Extract trends, profitability insights, and market segmentation details.
-- Translate findings into a format suitable for executive decision-making.
+- Design a normalized relational database in **MySQL**
+- Upload raw Excel data and apply SQL-based transformation
+- Extract key metrics and business trends using queries
+- Import structured data into **Power BI** and build a dashboard
+- Deliver executive-level insights through interactive visuals
 
 ---
 
@@ -31,76 +31,47 @@ From database schema design to SQL-based analysis and insight generation, this p
 
 | Section | Description |
 |--------|-------------|
-| 📘 [`database_schema.md`](./docs/database_schema.md) | Tables, fields, constraints, and schema relationships |
-| 📊 [`basic_statistics.md`](./docs/basic_statistics.md) | Record counts, uniqueness metrics, and value distributions |
-| 📈 [`business_insights.md`](./docs/business_insights.md) | Visualized findings on customers, products, markets, and profit |
-| 🧾 [`sql/create_tables.sql`](./sql/create_tables.sql) | SQL script to recreate the schema |
-| 📂 `docs/visuals/` | PNG charts for visual storytelling (Top customers, trends, etc.) |
+| 📘 [`database_schema.md`](./docs/database_schema.md) | Detailed MySQL table design |
+| 📊 [`basic_statistics.md`](./docs/basic_statistics.md) | Table summaries and record-level insights |
+| 📈 [`business_insights.md`](./docs/business_insights.md) | Revenue, customer, and product analysis |
+| 💾 [`sql/create_tables.sql`](./sql/create_tables.sql) | SQL script to recreate the schema |
+| 📂 `ProjectPowerbi.pbix` | Fully interactive Power BI dashboard |
 
 ---
 
-## 🔍 Key Insights at a Glance
+## 🔍 Key Highlights
 
-### 🏆 Top Customers
-- AVNET ASIA PTE LTD (TAIWAN BR): $7.91M
-- TTI INC: $6.62M  
-- Together, top 2 contribute over **18% of total revenue**
+### 📊 Sales Trends and Customer Insights
+- Top 10 customers by revenue, led by **AVNET ASIA PTE LTD** ($7.91M)
+- Seasonal sales trends peaking in **January** and **June**
 
-### 📅 Monthly Sales Trends
-- **January** & **June** show clear sales peaks
-- Significant year-end dip in **December** (~$5.1M)
+### 🌍 Regional Analysis
+- **United States** leads with $54.7M in sales
+- Canada and Taiwan follow with strong contributions
 
-### 🌍 Regional Revenue
-- **United States** alone contributes over **$54.7M**
-- Canada and Taiwan follow with a distant lead
+### 💸 Profitability Tiering
+- Only **1%** of products generate >75% margins
+- **61%** of products fall in the low-profitability segment (≤25%)
 
-### 📦 Product Profitability
-- Only **1% of products** have very high margins (>75%)
-- **61% of products** fall under low profitability (≤25%)
-
-### 🛒 Customer Segmentation
-- **Domestic** sales outperform exports by over 2x
-- Export channel remains consistent and stable across the year
-
----
-
-## 🧮 Analysis Snapshots
-
-> Visuals available in [`docs/visuals/`](./docs/visuals)
-
-- 📊 Top 10 Customers by Revenue  
-- 📈 Monthly Sales Trend  
-- 🌎 Regional Sales Breakdown  
-- 💰 Product Profitability Tiers  
-- 🧑‍💼 Customer Type Segmentation  
-- 📦 HPL-level Sales and Profit Contribution  
-- 📦 Top 10 HPLs by Volume Sold  
-
----
-
-## 📌 Why This Matters
-
-Understanding historical sales behavior is critical for:
-
-- **Optimizing inventory** based on product performance
-- **Segmenting high-value customers** for retention strategies
-- **Identifying seasonal trends** for better demand forecasting
-- **Focusing on profitable SKUs** to improve margin
+### ⚡ Power BI Dashboard Features
+- Interactive slicers for HPL, country, and customer type
+- Dynamic cards and KPI indicators
+- Multi-page navigation with detailed filters and tooltips
 
 ---
 
 ## 🙋‍♂️ About Me
 
-I’m Ananth Ajith, a career switcher transitioning from UI/UX design into data analytics. I’m passionate about using data to drive insights and decision-making. This project represents a step forward in combining **structured analysis** with **business storytelling**.
+I’m **Ananth Ajith**, a former UI/UX designer now transitioning into data analytics. This project reflects my growth in combining structured data workflows with visual communication, using tools like **SQL** and **Power BI**.
 
 ---
 
 ## 📄 License & Credits
 
-- 🔗 Data is hypothetical and used purely for academic and portfolio purposes.
-- 🧠 Built using skills from MySQL, Excel, and structured problem-solving.
-- 📚 Inspired by real-world business use cases and capstone principles.
+- Data used is fictional and solely for learning purposes
+- Dashboard built using Power BI Desktop with MySQL as backend
+- Project developed as part of a personal portfolio to demonstrate technical proficiency
 
 ---
 
-> ⚡ For a breakdown of the full database schema and additional analysis, head to the [docs folder](./docs).
+> 🚀 Explore the insights, dig into the SQL, and open the Power BI dashboard to interact with the full report!
