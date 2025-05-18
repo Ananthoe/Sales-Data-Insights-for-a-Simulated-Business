@@ -53,7 +53,7 @@ This project was structured around real-world business questions to simulate a c
 | [📊 basic statistics](./docs/basic_statistics.md) | Table summaries and record-level insights |
 | [📈 business insights](./docs/business_insights.md) | Revenue, customer, and product analysis |
 | [🧾 Schema](./sql/create_tables.sql) | SQL script to recreate the schema |
-| [🔘 Click to view sales data dashboard PDF](./Dashboard/SalesData.pdf) | PDF snapshot of Power BI dashboard |
+| [🔘 Click to view sales data dashboard PDF](./Dashboard/Sales-Analysis.pdf) | PDF snapshot of Power BI dashboard |
 
 
 
