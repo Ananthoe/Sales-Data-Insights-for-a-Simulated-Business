@@ -17,6 +17,23 @@ From designing the database schema to building interactive dashboards, this proj
 
 ---
 
+## 📋 Business Questions & Analysis Scenarios
+
+This project was structured around real-world business questions to simulate a corporate analytics case study. Below are the analysis scenarios I tackled using Power BI and DAX:
+
+1. Total Sales by Top 10 Customers  
+2. Monthly Sales Trend  
+3. Top 10 Products  
+4. Regional Sales Distribution  
+5. Customer Segmentation by Type  
+6. Cost Analysis of Products  
+7. Monthly Sales Trends by Customer Type  
+8. Top 10 Customers by Revenue  
+9. Contribution Analysis of HPL Codes  
+10. Top 10 HPLs by Average Monthly Sales Quantity
+
+---
+
 ## 🎯 Objectives
 
 - Design a normalized relational database in **MySQL**
