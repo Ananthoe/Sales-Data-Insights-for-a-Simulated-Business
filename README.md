@@ -49,7 +49,6 @@ This project was structured around real-world business questions to simulate a c
 | Section | Description |
 |---------|-------------|
 | [📘 database schema](./docs/database_schema.md) | Detailed MySQL table design |
-| [📂 Powerbi File](./ProjectPowerbi.pbix) | Fully interactive Power BI dashboard |
 | [📊 basic statistics](./docs/basic_statistics.md) | Table summaries and record-level insights |
 | [📈 business insights](./docs/business_insights.md) | Revenue, customer, and product analysis |
 | [🧾 Schema](./sql/create_tables.sql) | SQL script to recreate the schema |
