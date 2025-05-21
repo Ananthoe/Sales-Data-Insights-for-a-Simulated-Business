@@ -1,6 +1,6 @@
--- Databse creation
-create database amphenol;
-use amphenol;
+-- Database creation
+create database xxxxxx;
+use xxxxxx;
 describe invoice;
 
 -- Renaming buggy columns 
