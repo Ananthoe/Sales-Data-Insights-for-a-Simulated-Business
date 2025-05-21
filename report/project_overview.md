@@ -107,8 +107,6 @@ The dashboard was developed using Power BI Desktop with live MySQL connection. I
 - **Filters**: Country, customer type, HPL, SOP, month, etc.  
 - **Multi-page Layout**: Segmented views for sales, regions, customers, products  
 
-> See the live visuals in [📂 ProjectPowerbi.pbix](../ProjectPowerbi.pbix)
-
 ---
 
 ## 💡 Recommendations
@@ -124,7 +122,6 @@ The dashboard was developed using Power BI Desktop with live MySQL connection. I
 
 | File | Purpose |
 |------|---------|
-| [📂 ProjectPowerbi.pbix](../ProjectPowerbi.pbix) | Interactive Power BI dashboard |
 | [🧾 create_tables.sql](../sql/create_tables.sql) | Raw SQL + cleaning and setup script |
 | [📘 database_schema.md](../docs/database_schema.md) | Data model and table-level structure ||
 
