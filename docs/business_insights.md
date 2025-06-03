@@ -37,7 +37,7 @@ This document summarizes key findings extracted from the sales data using SQL-ba
 - 🇨🇦 Canada: $12.1M  
 - 🇹🇼 Taiwan: $9.8M  
 
-> Heavy concentration in North America and Taiwan.
+> Heavy concentration in North America.
 
 ---
 
