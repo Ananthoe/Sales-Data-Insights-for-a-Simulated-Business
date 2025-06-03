@@ -88,7 +88,7 @@ I’m **Ananth Ajith**, a former UI/UX designer now transitioning into data anal
 ## 📄 License & Credits
 
 - Data used is fictional and solely for learning purposes
-- Dashboard built using Power BI Desktop with MySQL as backend
+- Dashboard built using Power BI Desktop with MySQL for building relational tables and querying
 - Project developed as part of a personal portfolio to demonstrate technical proficiency
 
 ---
