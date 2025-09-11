@@ -230,7 +230,7 @@ select HPL_desc, round(((sum(Inv_Qty*Inv_Price))-(sum(inv_qty*Partmast_Stdcost))
 join part_master p on i.Inv_ItemNbr=p.Partmast_ItemNbr
 join hpl h on p.Partmast_HPLcode= h.HPL_code
 group by HPL_desc
-having  ((sum(Inv_Qty*Inv_Price))-(sum(inv_qty*Partmast_Stdcost)))/(sum(Inv_Qty*Inv_Price)) < 0.1 ;
+having  ((sum(Inv_Qty*Inv_Price))-(sum(inv_qty*Partmast_Stdcost)))/(sum(Inv_Qty*Inv_Price)) < 0.25 ;
 
 -- 7. Monthly sales trend by customer type
 select Custmast_type, month(Inv_Date), round(sum(Inv_Qty*Inv_Price),0) as Tot_sales from invoice_sheet i
